@@ -53,7 +53,7 @@ end
 
 def add_s(array)
   
-  array.each.collect {|word| puts word << "s" if word != "feet"}
+  array.each.collect {|word| return word << "s" if word != "feet"}
   
 end
 
