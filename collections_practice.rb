@@ -57,4 +57,3 @@ def add_s(array)
   
 end
 
-a.each { |i| puts "three" if i % 3 == 0 elsif puts "five" if i % 5 == 0 else puts i}
