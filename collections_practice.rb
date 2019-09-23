@@ -53,7 +53,7 @@ end
 
 def add_s(array)
   
-  array.each_with_index.collect |word, i| do
+  array.each_with_index.collect |word| do
     if word = "feet"
       puts word
       else word << "s"
