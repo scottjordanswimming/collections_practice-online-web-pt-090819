@@ -53,6 +53,6 @@ end
 
 def add_s(array)
   
-  array.each.collect {|word| array[2] << "feet"}
+  array.each.collect {|word| word<< "feet"}
   
 end
