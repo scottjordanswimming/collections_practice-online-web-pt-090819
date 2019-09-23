@@ -55,5 +55,5 @@ def add_s(array)
   
   array.each.collect {|word| word << "s" if word != "feet"}
   array[2] = "feet"
-  
+  array
 end
