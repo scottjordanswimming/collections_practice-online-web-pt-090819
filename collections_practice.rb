@@ -56,4 +56,4 @@ def add_s(array)
   array.each.collect {|word| word << "s" if word != "feet" else "feet"}
   
 end
-
+a.each { |i| puts "three" if i % 3 == 0 elsif puts "five" if i % 5 == 0 else puts i}
