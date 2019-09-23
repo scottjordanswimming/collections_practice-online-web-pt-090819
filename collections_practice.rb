@@ -53,10 +53,6 @@ end
 
 def add_s(array)
   
-  array.each_with_index.collect {|element, index| array[2] << "feet"
-
-    if word = "feet"
-      puts word
-      else word << "s"
+  array.each_with_index.collect {|element, index| array[2] << "feet"}
   end
 end
